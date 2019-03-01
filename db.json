@@ -2,95 +2,52 @@
   "scene": {
     "items": [
       {
-        "id": 1,
+        "id": 0,
         "type": "pipette",
-        "name": "test",
+        "name": "Pipette",
         "transform": {
-          "x": 0,
-          "y": 0,
+          "x": 318.666748046875,
+          "y": 33.33331298828125,
           "angle": 0
+        },
+        "property": {
+          "liquid": "none"
+        }
+      },
+      {
+        "id": 1,
+        "type": "container",
+        "name": "Container",
+        "transform": {
+          "x": 58.666656494140625,
+          "y": 202.66668701171875,
+          "angle": 0
+        },
+        "property": {
+          "liquid": "water"
         }
       },
       {
         "id": 2,
-        "type": "pipette",
-        "name": "test",
-        "transform": {
-          "x": 0,
-          "y": 0,
-          "angle": 0
-        }
-      },
-      {
-        "id": 3,
-        "type": "pipette",
-        "name": "test",
-        "transform": {
-          "x": 0,
-          "y": 0,
-          "angle": 0
-        }
-      },
-      {
-        "id": 4,
-        "type": "pipette",
-        "name": "test",
-        "transform": {
-          "x": 0,
-          "y": 0,
-          "angle": 0
-        }
-      },
-      {
-        "id": 5,
-        "type": "container",
-        "name": "test",
-        "transform": {
-          "x": 0,
-          "y": 0,
-          "angle": 0
-        }
-      },
-      {
-        "id": 6,
-        "type": "container",
-        "name": "test",
-        "transform": {
-          "x": 0,
-          "y": 0,
-          "angle": 0
-        }
-      },
-      {
-        "id": 7,
-        "type": "container",
-        "name": "test",
-        "transform": {
-          "x": 0,
-          "y": 0,
-          "angle": 0
-        }
-      },
-      {
-        "id": 8,
-        "type": "container",
-        "name": "test",
-        "transform": {
-          "x": 0,
-          "y": 0,
-          "angle": 0
-        }
-      },
-      {
-        "id": 9,
         "type": "tube",
-        "name": "test",
+        "name": "tube",
         "transform": {
-          "x": 0,
-          "y": 0,
+          "x": 318,
+          "y": 248,
           "angle": 0
+        },
+        "property": {
+          "liquid": "none"
         }
       }
-    ]
+    ],
+    "objective": {
+      "item": "tube",
+      "description": "Pipette some water into the tube.",
+      "property": {
+        "name": "liquid",
+        "value": "water"
+      }
+    }
   }
 }
