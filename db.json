@@ -4,48 +4,64 @@
       {
         "id": 0,
         "type": "pipette",
-        "name": "pipette",
+        "name": "Pipette",
         "transform": {
-          "x": 274,
-          "y": 11,
+          "x": 320,
+          "y": -1,
           "angle": 0
         },
         "property": {
-          "liquid": "none"
+          "liquidType": "none"
         }
       },
       {
         "id": 1,
         "type": "container",
-        "name": "container",
+        "name": "Container",
         "transform": {
-          "x": -33,
-          "y": 194,
+          "x": 34,
+          "y": 213,
           "angle": 0
         },
         "property": {
-          "liquid": "water"
+          "liquidType": "water",
+          "volume": "20"
         }
       },
       {
         "id": 2,
         "type": "tube",
-        "name": "tube",
+        "name": "Tube",
         "transform": {
-          "x": 259,
-          "y": 239,
+          "x": 282,
+          "y": 214,
           "angle": 0
         },
         "property": {
-          "liquid": "none"
+          "liquidType": "none",
+          "volume": "0"
+        }
+      },
+      {
+        "id": 3,
+        "type": "pipette",
+        "name": "Pipett2",
+        "transform": {
+          "x": 0,
+          "y": 0,
+          "angle": 0
+        },
+        "property": {
+          "liquidType": "water",
+          "volume": "0"
         }
       }
     ],
     "objective": {
-      "item": "tube",
-      "description": "pipette some water from container into the tube",
+      "item": "Tube",
+      "description": "Pipette some water into the tube.",
       "property": {
-        "name": "liquid",
+        "name": "liquidType",
         "value": "water"
       }
     }
