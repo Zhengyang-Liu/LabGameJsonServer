@@ -2,68 +2,81 @@
   "scene": {
     "items": [
       {
-        "id": 0,
-        "type": "pipette",
-        "name": "Pipette",
-        "transform": {
-          "x": 320,
-          "y": -1,
-          "angle": 0
-        },
-        "property": {
-          "liquidType": "none"
-        }
-      },
-      {
         "id": 1,
-        "type": "container",
-        "name": "Container",
+        "type": "pipette",
+        "name": "pipette",
         "transform": {
-          "x": 34,
-          "y": 213,
-          "angle": 0
-        },
-        "property": {
-          "liquidType": "water",
-          "volume": "20"
-        }
-      },
-      {
-        "id": 2,
-        "type": "tube",
-        "name": "Tube",
-        "transform": {
-          "x": 282,
-          "y": 214,
+          "x": 298.4000244140625,
+          "y": 48.80000305175781,
           "angle": 0
         },
         "property": {
           "liquidType": "none",
-          "volume": "0"
+          "volume": 0
         }
       },
       {
-        "id": 3,
-        "type": "pipette",
-        "name": "Pipett2",
+        "id": 2,
+        "type": "container",
+        "name": "container",
         "transform": {
-          "x": 0,
-          "y": 0,
+          "x": 46.399993896484375,
+          "y": 236.8000030517578,
           "angle": 0
         },
         "property": {
           "liquidType": "water",
-          "volume": "0"
+          "volume": 20
+        }
+      },
+      {
+        "id": 3,
+        "type": "tube",
+        "name": "tube1",
+        "transform": {
+          "x": 200,
+          "y": 268.800048828125,
+          "angle": 0
+        },
+        "property": {
+          "liquidType": "none",
+          "volume": 0
+        }
+      },
+      {
+        "id": 4,
+        "type": "tube",
+        "name": "tube2",
+        "transform": {
+          "x": 250.4000244140625,
+          "y": 269.6000518798828,
+          "angle": 0
+        },
+        "property": {
+          "liquidType": "none",
+          "volume": 0
         }
       }
     ],
-    "objective": {
-      "item": "Tube",
-      "description": "Pipette some water into the tube.",
-      "property": {
-        "name": "liquidType",
-        "value": "water"
+    "objective": [
+      {
+        "item": "tube1",
+        "description": "Pipette water into left tube.",
+        "property": {
+          "name": "liquidType",
+          "value": "water"
+        },
+        "title": "Step 1"
+      },
+      {
+        "item": "tube2",
+        "description": "Pipette water into right tube.",
+        "property": {
+          "name": "liquidType",
+          "value": "water"
+        },
+        "title": "Step 2"
       }
-    }
+    ]
   }
 }
