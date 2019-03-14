@@ -2,12 +2,12 @@
   "scene": {
     "items": [
       {
-        "id": 1,
+        "id": 0,
         "type": "pipette",
-        "name": "pipette",
+        "name": "pipette0",
         "transform": {
-          "x": 298.4000244140625,
-          "y": 48.80000305175781,
+          "x": 219.20004272460938,
+          "y": 6.4000091552734375,
           "angle": 0
         },
         "property": {
@@ -16,12 +16,12 @@
         }
       },
       {
-        "id": 2,
+        "id": 1,
         "type": "container",
-        "name": "container",
+        "name": "container1",
         "transform": {
-          "x": 46.399993896484375,
-          "y": 236.8000030517578,
+          "x": -32,
+          "y": 229.60003662109375,
           "angle": 0
         },
         "property": {
@@ -30,12 +30,26 @@
         }
       },
       {
+        "id": 2,
+        "type": "tube",
+        "name": "tube2",
+        "transform": {
+          "x": 117.5999755859375,
+          "y": 273.6000061035156,
+          "angle": 0
+        },
+        "property": {
+          "liquidType": "none",
+          "volume": 0
+        }
+      },
+      {
         "id": 3,
         "type": "tube",
         "name": "tube1",
         "transform": {
-          "x": 200,
-          "y": 268.800048828125,
+          "x": -73.5999755859375,
+          "y": 274.3999938964844,
           "angle": 0
         },
         "property": {
@@ -46,10 +60,24 @@
       {
         "id": 4,
         "type": "tube",
-        "name": "tube2",
+        "name": "tube4",
         "transform": {
-          "x": 250.4000244140625,
-          "y": 269.6000518798828,
+          "x": 140.800048828125,
+          "y": 275.20001220703125,
+          "angle": 0
+        },
+        "property": {
+          "liquidType": "none",
+          "volume": 0
+        }
+      },
+      {
+        "id": 5,
+        "type": "tube",
+        "name": "tube5",
+        "transform": {
+          "x": 161.5999755859375,
+          "y": 272.800048828125,
           "angle": 0
         },
         "property": {
@@ -60,22 +88,36 @@
     ],
     "objective": [
       {
-        "item": "tube1",
-        "description": "Pipette water into left tube.",
-        "property": {
-          "name": "liquidType",
-          "value": "water"
-        },
-        "title": "Step 1"
+        "title": "Step 1",
+        "description": "Pipette some water into the 2 tubes on the left side.",
+        "property": [
+          {
+            "item": "tube1",
+            "name": "liquidType",
+            "value": "water"
+          },
+          {
+            "item": "tube2",
+            "name": "liquidType",
+            "value": "water"
+          }
+        ]
       },
       {
-        "item": "tube2",
-        "description": "Pipette water into right tube.",
-        "property": {
-          "name": "liquidType",
-          "value": "water"
-        },
-        "title": "Step 2"
+        "title": "Step 2",
+        "description": "Pipette some water into the 2 tubes on the right side.",
+        "property": [
+          {
+            "item": "tube4",
+            "name": "liquidType",
+            "value": "water"
+          },
+          {
+            "item": "tube5",
+            "name": "liquidType",
+            "value": "water"
+          }
+        ]
       }
     ]
   }
