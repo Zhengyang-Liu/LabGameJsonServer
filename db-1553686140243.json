@@ -1,0 +1,63 @@
+{
+  "scene": {
+    "items": [
+      {
+        "id": 6,
+        "type": "pipette",
+        "name": "pipette6",
+        "transform": {
+          "x": 315,
+          "y": 88,
+          "angle": 0
+        },
+        "property": {
+          "liquid": [
+            {
+              "type": "water",
+              "volume": 5
+            }
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "type": "container",
+        "name": "container7",
+        "transform": {
+          "x": 104,
+          "y": 241,
+          "angle": 0
+        },
+        "property": {
+          "liquid": []
+        }
+      },
+      {
+        "id": 8,
+        "type": "tube",
+        "name": "tube8",
+        "transform": {
+          "x": 325,
+          "y": 266,
+          "angle": 0
+        },
+        "property": {
+          "liquid": []
+        }
+      }
+    ],
+    "objective": [
+      {
+        "title": "",
+        "description": "",
+        "property": [
+          {
+            "item": "",
+            "name": "",
+            "value": ""
+          }
+        ]
+      }
+    ]
+  }
+}
