@@ -6,29 +6,175 @@
         "type": "pipette",
         "name": "pipette0",
         "transform": {
-          "x": 133,
-          "y": 60,
+          "x": 0,
+          "y": 0,
           "angle": 0
         },
         "property": {
-          "liquid": []
+          "liquidType": "none",
+          "volume": 0
+        }
+      },
+      {
+        "id": 1,
+        "type": "pipette",
+        "name": "pipette1",
+        "transform": {
+          "x": 5.33331298828125,
+          "y": 0.6666717529296875,
+          "angle": 0
+        },
+        "property": {
+          "liquidType": "none",
+          "volume": 0
+        }
+      },
+      {
+        "id": 2,
+        "type": "pipette",
+        "name": "pipette2",
+        "transform": {
+          "x": 11.3333740234375,
+          "y": 0,
+          "angle": 0
+        },
+        "property": {
+          "liquidType": "none",
+          "volume": 0
+        }
+      },
+      {
+        "id": 3,
+        "type": "pipette",
+        "name": "pipette3",
+        "transform": {
+          "x": 23.3333740234375,
+          "y": 0,
+          "angle": 0
+        },
+        "property": {
+          "liquidType": "none",
+          "volume": 0
+        }
+      },
+      {
+        "id": 4,
+        "type": "container",
+        "name": "container4",
+        "transform": {
+          "x": -89.42852783203125,
+          "y": 283.047607421875,
+          "angle": 0
+        },
+        "property": {
+          "liquidType": "trypan blue",
+          "volume": 20
+        }
+      },
+      {
+        "id": 5,
+        "type": "tube",
+        "name": "tube5",
+        "transform": {
+          "x": -46.6666259765625,
+          "y": 313.3333740234375,
+          "angle": 0
+        },
+        "property": {
+          "liquidType": "water",
+          "volume": 9
+        }
+      },
+      {
+        "id": 6,
+        "type": "tube",
+        "name": "tube6",
+        "transform": {
+          "x": -22.666748046875,
+          "y": 315.3333435058594,
+          "angle": 0
+        },
+        "property": {
+          "liquidType": "water",
+          "volume": 9
+        }
+      },
+      {
+        "id": 7,
+        "type": "tube",
+        "name": "tube7",
+        "transform": {
+          "x": 20,
+          "y": 316.0000305175781,
+          "angle": 0
+        },
+        "property": {
+          "liquidType": "water",
+          "volume": 9
+        }
+      },
+      {
+        "id": 8,
+        "type": "tube",
+        "name": "tube8",
+        "transform": {
+          "x": 57.3333740234375,
+          "y": 315.3333740234375,
+          "angle": 0
+        },
+        "property": {
+          "liquidType": "water",
+          "volume": 9
         }
       }
     ],
     "objective": [
       {
-        "title": "",
-        "description": "",
+        "title": "1. Create 0.1 M Trypan Blue Dilution",
+        "description": "Pipette 1 ml Trypan Blue stock from the container into the first tube to create 0.1 M Trypan Blue dilution.",
         "property": [
           {
-            "item": "pipette0",
-            "name": "liquid",
-            "value": [
-              {
-                "type": "water",
-                "volume": 5
-              }
-            ]
+            "item": "tube5",
+            "name": "liquidType",
+            "value": "trypan blue -1"
+          },
+          {
+            "item": "tube5",
+            "name": "liquidType",
+            "value": "trypan blue -1"
+          }
+        ]
+      },
+      {
+        "title": "2. Create 0.01 M Trypan Blue Dilution",
+        "description": "Pipette 1 ml dilution from the first tube into the second tube to create 0.01 M Trypan Blue dilution.",
+        "property": [
+          {
+            "item": "tube6",
+            "name": "liquidType",
+            "value": "trypan blue -2"
+          }
+        ]
+      },
+      {
+        "title": "3. Create 0.001 M Trypan Blue Dilution",
+        "description": "Pipette 1 ml dilution from the 2nd tube into the 3rd tube to create 0.001 M Trypan Blue dilution.",
+        "property": [
+          {
+            "item": "tube7",
+            "name": "liquidType",
+            "value": "trypan blue -3"
+          }
+        ]
+      },
+      {
+        "title": "4. Create 0.0001 M Trypan Blue Dilution",
+        "description": "Pipette 1 ml dilution from the 3nd tube into the 4th tube to create 0.0001 M Trypan Blue dilution.",
+        "property": [
+          {
+            "item": "tube8",
+            "name": "liquidType",
+            "value": "trypan blue -4"
           }
         ]
       }
