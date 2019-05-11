@@ -6,8 +6,8 @@
         "type": "pipette",
         "name": "pipette0",
         "transform": {
-          "x": 0,
-          "y": 0,
+          "x": 74,
+          "y": 11,
           "angle": 0
         },
         "property": {
@@ -20,8 +20,8 @@
         "type": "pipette",
         "name": "pipette1",
         "transform": {
-          "x": 5.33331298828125,
-          "y": 0.6666717529296875,
+          "x": 104.33331298828125,
+          "y": 7.6666717529296875,
           "angle": 0
         },
         "property": {
@@ -34,8 +34,8 @@
         "type": "pipette",
         "name": "pipette2",
         "transform": {
-          "x": 11.3333740234375,
-          "y": 0,
+          "x": 128.3333740234375,
+          "y": 11,
           "angle": 0
         },
         "property": {
@@ -48,8 +48,8 @@
         "type": "pipette",
         "name": "pipette3",
         "transform": {
-          "x": 23.3333740234375,
-          "y": 0,
+          "x": 167.3333740234375,
+          "y": 6,
           "angle": 0
         },
         "property": {
@@ -68,7 +68,7 @@
         },
         "property": {
           "liquidType": "trypan blue",
-          "volume": 20
+          "volume": 22
         }
       },
       {
@@ -133,11 +133,6 @@
         "title": "1. Create 0.1 M Trypan Blue Dilution",
         "description": "Pipette 1 ml Trypan Blue stock from the container into the first tube to create 0.1 M Trypan Blue dilution.",
         "property": [
-          {
-            "item": "tube5",
-            "name": "liquidType",
-            "value": "trypan blue -1"
-          },
           {
             "item": "tube5",
             "name": "liquidType",
